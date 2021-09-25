@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FriendLetter
+namespace PierreVendors
 {
   public class Startup
   {
@@ -34,7 +34,7 @@ namespace FriendLetter
 
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Hello GLARNI!!");
+        await context.Response.WriteAsync("IT WORKS!");
       });
       
         app.UseDeveloperExceptionPage();  
